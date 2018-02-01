@@ -1,5 +1,5 @@
 # image2base64-cli
-convert image to base64
+a cli convert image to base64
 
 ### Installation
 
