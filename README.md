@@ -10,12 +10,12 @@ $ npm install -g images2base64
 ### Usage
 
 ``` bash
-$ base64 imagesDir outputFileName
+$ images2base64 imagesDir outputFileName
 ```
 
 Example:
 
 ``` bash
-$ base64 ./images
-$ base64 ./images xxx
+$ images2base64 ./images
+$ images2base64 ./images xxx
 ```

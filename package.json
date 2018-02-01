@@ -1,10 +1,10 @@
 {
   "name": "images2base64",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a cli convert images to base64",
   "main": "index.js",
   "bin": {
-    "base64": "bin/base64"
+    "images2base64": "bin/images2base64"
   },
   "repository": {
     "type": "git",
