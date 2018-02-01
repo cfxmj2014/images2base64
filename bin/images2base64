@@ -27,7 +27,7 @@ if (program.args.length < 1) return program.help()
 
 var imageDir = program.args[0];
 var outputFileName = program.args[1] || 'index';
-var source = path.join(__dirname, imageDir);
+var source = path.join(process.cwd(), imageDir);
 var jsPath = path.join(source, outputFileName + '.js');
 
 if (fs.existsSync(source)) {
@@ -55,7 +55,7 @@ if (fs.existsSync(source)) {
       fs.stat(imagePath, function(err, stats) {
         if (err) console.log(err)
 
-        if (stats.size >= 1000) {
+        if (stats.size >= 10000) {
           console.log(chalk.yellow(item + ' image size is over 10kb,not recommend to base64!'));
         }
       })

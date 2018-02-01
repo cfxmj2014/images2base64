@@ -1,6 +1,6 @@
 {
   "name": "images2base64",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "a cli convert images to base64",
   "main": "index.js",
   "bin": {
