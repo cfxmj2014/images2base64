@@ -16,5 +16,6 @@ $ image2base64 imageDir outputFileName
 Example:
 
 ``` bash
-$ image2base64 ./images index
+$ image2base64 ./images
+$ image2base64 ./images xxx
 ```
