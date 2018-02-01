@@ -1,21 +1,21 @@
-# image2base64-cli
-a cli convert image to base64
+# images2base64-cli
+a cli convert images to base64
 
 ### Installation
 
 ``` bash
-$ npm install -g image2base64-cli
+$ npm install -g images2base64-cli
 ```
 
 ### Usage
 
 ``` bash
-$ image2base64 imageDir outputFileName
+$ base64 imagesDir outputFileName
 ```
 
 Example:
 
 ``` bash
-$ image2base64 ./images
-$ image2base64 ./images xxx
+$ base64 ./images
+$ base64 ./images xxx
 ```
