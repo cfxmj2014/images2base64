@@ -1,0 +1,24 @@
+{
+  "name": "image2base64",
+  "version": "1.0.0",
+  "description": "a cli convert image to base64",
+  "main": "index.js",
+  "bin": {
+    "base64": "bin/base64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfxmj2014/image2base64.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.3",
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "glob": "^7.1.2"
+  }
+}
